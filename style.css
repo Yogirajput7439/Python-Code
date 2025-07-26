@@ -1,0 +1,446 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(5, 0, 0);
+}
+
+.container {
+    background-image: url(https://raw.githubusercontent.com/CodeWithHarry/Sigma-Web-Dev-Course/36b5b5745645de080da183dc7e634601810bea79/Video%2053/assets/images/bg.jpg);
+    position: relative;
+    background-size: max(1200px 100vw);
+    height: 744px;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+
+
+}
+
+.container nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90vw;
+    margin-inline: 2%;
+    align-items: center;
+    height: 10vh;
+
+}
+
+.container nav img {
+    height: 5vh;
+    width: 30vw;
+    margin-left: 0px;
+    position: relative;
+    z-index: 10;
+}
+
+.container nav button {
+    height: 2vh;
+    margin-top: 10px;
+    position: relative;
+    z-index: 10;
+    gap: 20px;
+    font-family: "kanit", serif;
+
+}
+
+.container .but2 {
+    background-color: rgb(227, 0, 0);
+    border-radius: 6px;
+    height: 35px;
+    color: white;
+    width: 6vw;
+    margin-left: 9px;
+    border: 1px solid red;
+    font-family: "kanit", serif;
+    font-size: 18px;
+}
+
+.container .but1 {
+    border: 0.1px solid white;
+    background-color: rgba(250, 240, 240, 0.022);
+    height: 35px;
+    width: 9vw;
+    color: rgb(248, 251, 248);
+    border-radius: 6px;
+    font-family: "kanit", serif;
+    font-size: 18px;
+}
+
+.hero :nth-child(1) {
+    font-size: 50px;
+    line-height: 50px;
+    font-family: "kanit", serif;
+
+}
+
+.hero :nth-child(2) {
+    font-size: 20px;
+
+}
+
+.hero :nth-child(3) {
+    font-size: 17px;
+}
+
+.container .box {
+    width: 100%;
+    height: 744px;
+    position: absolute;
+    top: 0px;
+    opacity: 0.69;
+    background-color: black;
+
+
+}
+
+.container .hero {
+    text-align: center;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    gap: 23px;
+    margin-top: 8%;
+    color: white;
+    line-height: 30px;
+    font-family: "kanit", serif;
+
+}
+
+.container .hero2 {
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    margin: 20px;
+
+
+}
+
+.container .hero2 button {
+    background-color: red;
+    width: 15vw;
+    height: 6vh;
+    margin-left: 10px;
+    border: 2px solid red;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: "kanit", serif;
+    color: white;
+}
+
+.container .hero2 input {
+    background-color: rgba(26, 25, 25, 0.707);
+    color: rgb(253, 251, 251);
+    border-radius: 5px;
+    width: 20vw;
+    opacity: 0.5;
+    border: rgb(5, 0, 0);
+    height: 6vh;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid white;
+
+}
+
+.container-2 {
+    width: 100vw;
+    height: 400px;
+    background-color: black;
+}
+
+.container-2 {
+    margin: 0px;
+    height: 400px;
+}
+
+.container-2 h2 {
+    color: white;
+    margin: 1%;
+    margin-inline: 8%;
+    margin-left: 10vw;
+}
+
+.hed :nth-child(1) {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 10vw;
+    color: white;
+    align-items: center;
+    height: 5vh;
+    width: 7vw;
+}
+
+.hed :nth-child(2) {
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-left: 2vw;
+    color: white;
+    align-items: center;
+    height: 5vh;
+    width: 7vw;
+}
+
+.container-2 .yogi {
+    height: 310px;
+    margin-inline: 10%;
+    position: relative;
+}
+
+.yogi :nth-child(1) {
+    height: 35vh;
+    width: 15vw;
+    margin-top: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.yogi :nth-child(2) {
+    height: 35vh;
+    width: 15vw;
+    margin-top: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.yogi :nth-child(3) {
+    height: 35vh;
+    width: 15vw;
+    margin-top: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.yogi :nth-child(4) {
+    height: 35vh;
+    width: 15vw;
+    margin-top: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.yogi :nth-child(5) {
+    height: 35vh;
+    width: 15vw;
+    margin-top: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.yogi :nth-child(6) {
+    height: 35vh;
+    width: 15vw;
+    margin-top: 2px;
+    position: relative;
+    top: 1px;
+}
+
+.photo .box2 img {
+    width: 90%vw;
+    height: 300px;
+    margin-inline: 10%;
+}
+
+.photo h2 {
+    color: white;
+    margin-inline-start: 11%;
+    margin-bottom: 1%;
+}
+
+.content {
+    width: 100vw;
+    height: 600px;
+    margin: 0px;
+    background-color: black;
+}
+
+.content h2 {
+    color: white;
+    margin-left: 10%;
+
+}
+
+.allcontent {
+    color: white;
+    line-height: 20px;
+    margin: 10px;
+}
+
+.allcontent .part1 {
+    background-color: rgba(128, 128, 128, 0.521);
+    height: 10vh;
+    margin: 10px;
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+
+}
+
+.part1 :nth-child(1) {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.part1 :nth-child(2) {
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.allcontent .part2 {
+    background-color: rgba(128, 128, 128, 0.505);
+    height: 10vh;
+    width: 76%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+
+}
+
+.part2 :nth-child(1) {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.part2 :nth-child(2) {
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.allcontent .part3 {
+    background-color: rgba(128, 128, 128, 0.509);
+    height: 10vh;
+    margin: 10px;
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+
+}
+
+.part3 :nth-child(1) {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.part3 :nth-child(2) {
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.allcontent .part4 {
+    background-color: rgba(128, 128, 128, 0.517);
+    height: 10vh;
+    width: 76%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+
+}
+
+.part4 :nth-child(1) {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.part4 :nth-child(2) {
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.allcontent .part5 {
+    background-color: rgba(128, 128, 128, 0.52);
+    height: 10vh;
+    margin: 10px;
+    width: 76%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+
+}
+
+.part5 :nth-child(1) {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.part5 :nth-child(2) {
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.allcontent .part6 {
+    background-color: rgba(128, 128, 128, 0.492);
+    height: 10vh;
+    width: 76%;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 10%;
+
+}
+
+.part6 :nth-child(1) {
+    margin-left: 2%;
+    font-size: 25px;
+}
+
+.part6 :nth-child(2) {
+    margin-right: 25px;
+    font-size: 50px;
+}
+
+.last {
+    height: 40px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.last h3 {
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.lastib :nth-child(1) {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    width: 45%;
+    height: 35px;
+    margin-top: 8px;
+    border-radius: 4px;
+
+}
+
+.lastib :nth-child(2) {
+    color: white;
+    background-color: rgb(241, 14, 14);
+    width: 10%;
+    height: 40px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid red;
+}
+
+.lastib {
+    left: 20%;
+    justify-items: space-between;
+    align-items: center;
+    position: relative;
+
+}
