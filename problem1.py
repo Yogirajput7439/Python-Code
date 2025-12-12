@@ -1,29 +1,20 @@
-# username = input("inter you name : ")
+def calculate_tax(salary):
+    if (salary <= 30000):
+        tax = (5/100)*salary
+        print(f"you salary is {salary} your tax is {tax}")
 
-# age = int(input("enter your age : "))
+    elif ( 30000 < salary < 70000):
+        tax2 = (15/100)*salary
+        print(f"you salary is {salary} and your tax is {tax2}")
+        
+    elif (salary > 70000):
+        tax3 = (25/100)*salary
+        print(f"your salary is {salary} and your tax is {tax3}")
+        
+    else:
+        print("invalid salary")
+        
+        
 
-# print("hello ", username, "you are ", age, " years old")
-
-# a = int(input("enter a numebr : "))
-# b = int(input("enter a second number : "))
-
-# sum = a + b
-# mul = a * b
-# sub = a - b
-# div = a / b
-# mod = a % b
-
-# print("the sum is : ", sum)
-# print("the multiplication is : ", mul)
-# print("the sub is : ", sub)
-# print("the division is : ", div)
-# print("the modulo is : ", mod)
-# print(type(sum))
-
-b = int(input("enter an integer number : "))
-a = float(input("enter a float numeber : "))
-
-thesum = (a + b)
-
-
-print(thesum)
+salary = int(input("enter you salary : "))
+calculate_tax(salary)
