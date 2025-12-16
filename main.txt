@@ -1,0 +1,10 @@
+id,name,salary
+1,Raj,65000
+2,Anjali,85000
+3,Vikas,42000
+4,Kavita,98000
+5,Arun,76000
+6,Seema,71000
+7,yogesh,99000
+8,sham,45000
+9,ram,78000
