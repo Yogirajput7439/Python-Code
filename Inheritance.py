@@ -1,3 +1,5 @@
+MOST IMPORTANT PARTS IN PYTHON
+
 # INHERITANCE CONCEPT IN PYTHON
 
 class Animal:
@@ -9,3 +11,4 @@ class Dog(Animal):
 
 d1 = Dog()
 d1.sound()
+
