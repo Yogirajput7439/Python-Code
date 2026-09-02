@@ -1,4 +1,4 @@
-# Numpy In Python
+# Numpy Easy Use in Python
 
 import Numpy as np # Import the numpy to use numpy features
 
